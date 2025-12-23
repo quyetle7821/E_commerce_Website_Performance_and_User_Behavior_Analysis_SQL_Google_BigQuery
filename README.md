@@ -39,6 +39,38 @@ In this project, I write eight queries to explore the dataset and dive deeper in
 - ### Results
   <img width="901" height="197" alt="image" src="https://github.com/user-attachments/assets/ffc11cbb-cb20-402e-8f6a-6a51488fa4ff" />
 
+## Query 05: Average number of transactions per user that made a purchase in July 2017
+- ### SQL code
+  <img width="889" height="185" alt="image" src="https://github.com/user-attachments/assets/9eae4d38-c668-48fb-ab5f-f12bb0c63ffa" />
+- ### Results
+  <img width="918" height="173" alt="image" src="https://github.com/user-attachments/assets/ef1c28b0-d399-4df5-8030-6473f550ebb1" />
+
+## Query 06: Average amount of money spent per session. Only include purchaser data in July 2017
+- ### SQL code
+  <img width="946" height="190" alt="image" src="https://github.com/user-attachments/assets/597317cc-5994-4af2-93a5-4767e06aa482" />
+- ### Results
+  <img width="920" height="180" alt="image" src="https://github.com/user-attachments/assets/f680981a-6774-4335-9504-d1239782d12a" />
+
+## Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
+- ### SQL code
+  <img width="721" height="464" alt="image" src="https://github.com/user-attachments/assets/c62d521f-388a-48d8-b9ba-0a6075a5f995" />
+- ### Results
+  <img width="906" height="471" alt="image" src="https://github.com/user-attachments/assets/ad410763-4dde-41d0-a014-017becf8254c" />
+
+## Query 08: Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017. For example, 100% product view then 40% add_to_cart and 10% purchase.
+- ### SQL code
+  <img width="1329" height="405" alt="image" src="https://github.com/user-attachments/assets/407fd495-a1d7-44ca-a16f-7664d8517b50" />
+- ### Results
+  <img width="1107" height="238" alt="image" src="https://github.com/user-attachments/assets/e2f8ad2d-624b-4ae8-8ce0-f6de62042d44" />
+
+
+
+
+
+
+
+
+
 
 
 
