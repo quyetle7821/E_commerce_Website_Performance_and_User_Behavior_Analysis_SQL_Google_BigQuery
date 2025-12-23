@@ -1,4 +1,8 @@
-# 📊 Yếu tố nào thúc đẩy mua hàng & doanh thu, điểm nghẽn/tắc ở đâu trong phễu chuyển đổi?| eCommerce / Web Analytics | SQL (BigQuery)
+# 📊 What drives purchases & revenue, and where do users drop off in the funnel| eCommerce / Web Analytics | SQL (BigQuery)
+
+_+ Business question : Identify key performance drivers for an eCommerce website and measure the conversation funnel to support marketing & product optimization
+
+_+ Domain : eCommerce / Digital Marketing Analytics (Google Analytics web tracking data)
 
 Author: Lê Trường Quyết<br>
 Date : 2025/07/06<br>
@@ -11,6 +15,16 @@ Tools Used : SQL (Google BigQuery)<br>
 
 ---
 ## 📌 Background & Overview
+
+### Objective:
+### 📖 What is this project about? What Business Question will it solve?
+  - This project uses SQL in Google BigQuery to analyze Google Analytics session data from an eCommerce website
+  - The goal is to evaluate website performance across traffic, user behavior, and revenue, and to measure the conversion funnel to identify optimization opportunities.
+
+### 👤 Who is this project for?
+  - Data Analysts/ BI Analysts
+  - E-commerce / Product teams
+  - Decision-makers & stakeholders 
   
 # Exploring the Dataset
 In this project, I write eight queries to explore the dataset and dive deeper into the data to gain insights
