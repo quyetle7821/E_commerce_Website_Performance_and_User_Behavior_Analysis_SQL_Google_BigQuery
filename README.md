@@ -24,10 +24,30 @@ Tools Used : SQL (Google BigQuery)<br>
 ### 👤 Who is this project for?
   - Data Analysts/ BI Analysts
   - E-commerce / Product teams
-  - Decision-makers & stakeholders 
+  - Decision-makers & stakeholders
+
+---
+
+## 📂 Dataset Description & Data Structure
+
+### 📌 Data Source 
+- Source: Google BigQuery Public Dataset - Google Analytics Sample Dataset
+- Size: The dataset is partitioned into daily tables (ga_sessions_YYYYMMDD)
+- Format : BigQuery tables with nested & repeated fields (STRUC/RECORD), especially hits and hits.product
+
+### 📊 Data Structure & Relationships  
+
+#### 1️⃣ Tables Used:  
+  In this project, I used:
+  - Session tables: ga_sessions_2017* and specific daily tables such as ga_sessions_20170801
+(daily GA sessions tables inside google_analytics_sample dataset)
+
+#### 2️⃣ Table Schema & Data Snapshot 
+  <img width="550" height="668" alt="image" src="https://github.com/user-attachments/assets/6eb2c046-72bf-48c0-83ab-1a157805e772" />
   
-# Exploring the Dataset
-In this project, I write eight queries to explore the dataset and dive deeper into the data to gain insights
+## ⚒️ Main Process
+
+## Exploring the Dataset
 
 ## Query 1 : Calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 - ### SQL code
@@ -77,9 +97,19 @@ In this project, I write eight queries to explore the dataset and dive deeper in
 - ### Results
   <img width="1107" height="238" alt="image" src="https://github.com/user-attachments/assets/e2f8ad2d-624b-4ae8-8ce0-f6de62042d44" />
 
+## 🔎 Final Conclusion & Recommendations  
 
+👉🏻 Based on the analyses above, here are the key takeaways and recommended actions for stakeholders (Marketing / E-commerce / Product teams):
 
+### ✅ Key Takeaways
+- Traffic quality differs by source/medium: some channels drive high visits but also higher bounce rates.
+- Purchasers show stronger engagement than non purchasers(e.g, more pageviews) before converting.
+- The funnel highlights clear drop-offs across steps (view -> add_to_cart -> purchase), indicating friction points.
 
+### 🎯 Recommendations
+- Prioritize high-performing sources and optimize/retarget high-bounce sources (landing page + targeting).
+- Improve key funnel stages : enhance product pages (view -> cart) and reduce checkout friction (cart -> purchase)
+- Use cross-sell tactics (bundles / "frequently bought together") to increase averge order value.
 
 
 
