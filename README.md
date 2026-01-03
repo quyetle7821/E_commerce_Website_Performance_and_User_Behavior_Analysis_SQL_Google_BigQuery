@@ -9,10 +9,11 @@ Tools Used : SQL (Google BigQuery)<br>
 ## 📑 Table of Contents 
   1. [📌 Background & Overview](#-background--overview)
   2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
-  3. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
+  3. [⚒️ Main Process](#-main-process)
+  4. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
 
 ---
-## 📌 Background & Overview
+## 1. 📌 Background & Overview
 
 ### Objective:
 ### 📖 What is this project about? What Business Question will it solve?
@@ -26,7 +27,7 @@ Tools Used : SQL (Google BigQuery)<br>
 
 ---
 
-## 📂 Dataset Description & Data Structure
+## 2. 📂 Dataset Description & Data Structure
 
 ### 📌 Data Source 
 - Source: Google BigQuery Public Dataset - Google Analytics Sample Dataset
@@ -43,7 +44,7 @@ Tools Used : SQL (Google BigQuery)<br>
 #### 2️⃣ Table Schema & Data Snapshot 
   <img width="550" height="668" alt="image" src="https://github.com/user-attachments/assets/6eb2c046-72bf-48c0-83ab-1a157805e772" />
   
-## ⚒️ Main Process
+## 3. ⚒️ Main Process
 
 ## Exploring the Dataset
 
@@ -127,19 +128,20 @@ This query builds a funnel cohort map to track how users progress from **product
 - #### 💡 Queries result
   <img width="1107" height="238" alt="image" src="https://github.com/user-attachments/assets/e2f8ad2d-624b-4ae8-8ce0-f6de62042d44" />
 
-### 🔎 Final Conclusion & Recommendations  
+### 4. 🔎 Final Conclusion & Recommendations  
 
 👉🏻 Based on the analyses above, here are the key takeaways and recommended actions for stakeholders (Marketing / E-commerce / Product teams):
 
 ### ✅ Key Takeaways
 - Traffic quality differs by source/medium: some channels drive high visits but also higher bounce rates.
-- Purchasers show stronger engagement than non purchasers(e.g, more pageviews) before converting.
-- The funnel highlights clear drop-offs across steps (view -> add_to_cart -> purchase), indicating friction points.
+- Purchasers show stronger engagement than non-purchasers (e.g., more pageviews) before converting.
+- The funnel highlights clear drop-offs across steps (view → add_to_cart → purchase), indicating friction points.
 
 ### 🎯 Recommendations
 - Prioritize high-performing sources and optimize/retarget high-bounce sources (landing page + targeting).
-- Improve key funnel stages: enhance product pages (view -> cart) and reduce checkout friction (cart -> purchase)
+- Improve key funnel stages: enhance product pages (view → cart) and reduce checkout friction (cart → purchase).
 - Use cross-sell tactics (bundles / "frequently bought together") to increase average order value.
+
 
 
 
